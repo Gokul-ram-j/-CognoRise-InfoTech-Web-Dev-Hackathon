@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learn With Fun</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/icons/graduation-cap-solid.svg"
+      type="image/x-icon"
+    />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome Kit  -->
+    <script
+      src="https://kit.fontawesome.com/702363be04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar started -->
+      <section class="mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg bg-white">
+          <div class="container">
+            <a class="navbar-brand fs-2 fw-bold" href="#"
+              ><i class="fa-solid fa-graduation-cap"></i> Learn With Fun</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item pe-4">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#course">Courses</a>
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#registration">Registration</a>
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#qna">QnA</a>
+                </li>
+              </ul>
+              <div class="d-flex" role="">
+                <button class="btn btn-outline-info fs-5" type="button">
+                  Sign In
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- Navbar ended -->
+      <!-- Carousel started -->
+      <section class="container slide-items">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/cover/cover-1.png"
+                class="d-block w-100 slide-img"
+                alt="..."
+              />
+              <div
+                class="position-absolute top-50 start-50 translate-middle d-block text-center text-white p-2 item-description container-fluid"
+              >
+                <h1>Learning to be a UI designer</h1>
+                <p>
+                  Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-info text-white fw-semibold item-button"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-2.png"
+                class="d-block w-100 slide-img"
+                alt="..."
+              />
+              <div
+                class="position-absolute top-50 start-50 translate-middle d-block text-center text-white p-2 item-description container-fluid"
+              >
+                <h1>Fullstack Web Development</h1>
+                <p>
+                   Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-info text-white fw-semibold item-button"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-3.png"
+                class="d-block w-100 slide-img"
+                alt="..."
+              />
+              <div
+                class="position-absolute top-50 start-50 translate-middle d-block text-center text-white p-2 item-description container-fluid"
+              >
+                <h1>Javascript Basic to advanced</h1>
+                <p>
+                   Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-info text-white fw-semibold item-button"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Carousel ended  -->
+    </header>
+    <main class="mt-5">
+      <section class="container">
+        <!-- Course Section Started  -->
+       <section id="course">
+        <div class="text-center mx-auto w-75">
+            <h1>Discover Our Popular Courses</h1>
+            <p class="text-dark text-opacity-75">
+              There are many online courses out there. Some are reputable and
+              high-quality; others are less so. Reputable online courses are worth
+              something to people who might hire or promote you, but you have to
+              do the legwork of vetting each course.
+            </p>
+          </div>
+          <section class="mt-5 mb-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-3">
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <div class="d-flex flex-md-row flex-column">
+                    <img
+                      src="images/course/course-1.png"
+                      class="card-img-top p-2 rounded-3"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex align-items-center">
+                      <div>
+                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                        <p class="card-text text-dark text-opacity-75">
+                           Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                        </p>
+                        <h5 class="text-info">Price : 29$</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <div class="d-flex flex-md-row flex-column">
+                    <img
+                      src="images/course/course-2.png"
+                      class="card-img-top p-2 rounded-3"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex align-items-center">
+                      <div>
+                        <h4 class="card-title">Javascript Basic to advanced</h4>
+                        <p class="card-text text-dark text-opacity-75">
+                           Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                        </p>
+                        <h5 class="text-info">Price : 59$</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <div class="d-flex flex-md-row flex-column">
+                    <img
+                      src="images/course/course-3.png"
+                      class="card-img-top p-2 rounded-3"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex align-items-center">
+                      <div>
+                        <h4 class="card-title">Fullstack Web Development</h4>
+                        <p class="card-text text-dark text-opacity-75">
+                           Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                        </p>
+                        <h5 class="text-info">Price : 49$</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100  card-hover">
+                  <div class="d-flex flex-md-row flex-column">
+                    <img
+                      src="images/course/course-4.png"
+                      class="card-img-top p-2 rounded-3"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex align-items-center">
+                      <div>
+                        <h4 class="card-title">Digital Marketing</h4>
+                        <p class="card-text text-dark text-opacity-75">
+                           Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                        </p>
+                        <h5 class="text-info">Price : 39$</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-none d-lg-block">
+                <div class="card h-100 card-hover">
+                  <div class="d-flex flex-md-row flex-column">
+                    <img
+                      src="images/course/course-5.png"
+                      class="card-img-top p-2 rounded-3"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex align-items-center">
+                      <div>
+                        <h4 class="card-title">Photography Basic Rules</h4>
+                        <p class="card-text text-dark text-opacity-75">
+                           Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                        </p>
+                        <h5 class="text-info">Price : 59$</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-none d-lg-block">
+                <div class="card h-100 card-hover">
+                  <div class="d-flex flex-md-row flex-column">
+                    <img
+                      src="images/course/course-6.png"
+                      class="card-img-top p-2 rounded-3"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex align-items-center">
+                      <div>
+                        <h4 class="card-title">Motion Graphics</h4>
+                        <p class="card-text text-dark text-opacity-75">
+                           Never chase opportunities. Let it come to you by creating value and building rare skill sets.
+                        </p>
+                        <h5 class="text-info">Price : 79$</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+          </section>
+          <div class="mx-auto w-75 text-center mb-5">
+              <button type="button" class="btn btn-info text-white fw-semibold"> View All</button>
+          </div>
+       </section>
+        <!-- Course Section ended  -->
+        <!-- About Section Started  -->
+       <section class="mt-3 mb-5" id="about">
+        <div class="row row-cols-1">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <div class="d-flex flex-md-row flex-column bg-info bg-opacity-10">
+                  <img
+                    src="images/working.png"
+                    class="card-img-top w-50 rounded-0 mx-auto"
+                    alt="..."
+                  />
+                  <div class="card-body d-flex p-2 p-md-4 p-lg-5 align-items-center bg-info bg-opacity-10">
+                    <div>
+                      <h1 class="card-title">Explore The E-learning Institute</h1>
+                      <p class="card-text text-dark text-opacity-75">
+                        Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies. Free online courses from the world's top universities and companies. Over 4,000 courses in topics like business analytics, graphic design, Python, and more. Breakthrough pricing on 100% online degrees from top universities.<span class="d-block d-lg-none"><a href="" class="text-decoration-none text-info fw-semibold">...See more</a></span> <span class="d-none d-lg-block">Break into a new field like information technology or data science. No prior experience necessary to get started. <br><br>
+                        87% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career</span>
+                      </p>
+                      <div>
+                        <div class="row g-3">
+                          <div class="col-6 col-lg-4">
+                            <h2>5.2K+</h2>
+                            <p class=" text-dark text-opacity-75">Online Courses</p>
+                          </div>
+                          <div class="col-6 col-lg-4">
+                            <h2>600+</h2>
+                            <p class=" text-dark text-opacity-75">Expert Members</p>
+                          </div>
+                          <div class="col-6 col-lg-4">
+                            <h2>1K+</h2>
+                            <p class=" text-dark text-opacity-75">Ratings & Reviews</p>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="btn btn-info"><a href="https://web.programming-hero.com/" target="_blank" class="text-decoration-none text-white fw-semibold" rel="noopener noreferrer">Learn More</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+       </section>
+        <!-- About Section ended  -->
+        <!-- Registration Section Started  -->
+        <section class="row mt-5 bg-info p-3 p-lg-5 container mx-auto mb-5" id="registration">
+            <div class="col-12 col-lg-6 my-auto text-center text-lg-start text-white">
+                <div>
+                    <h1>Ready to join?</h1>
+                    <p>Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow. Change your life today. Don't gamble on the future, act now, without delay.</p>
+               </div>
+            </div>
+            <div class="col-12 col-lg-6 my-auto text-center text-lg-end">
+              <button type="button" class="btn bg-white text-info fw-semibold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Registration with your email</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1"><a href="">Terms & Condition</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Submit</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Registration Section ended  -->
+        <!-- Student Section Started  -->
+        <section class="mb-5">
+          <div class="mb-5 text-center text-md-start">
+            <h1>Meet Our Successful Students</h1>
+            <p class="text-dark text-opacity-75">Those who found success without going through failures never found true success,<br> only delusions. A truly successful person is not one who achieves his highest ambitions,<br> but one who enjoys helping others reach theirs.</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+            <div class="col d-none d-md-block">
+              <div class="card card-hover">
+                <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Awlad Hossain</h5>
+                  <p class="card-text text-dark text-opacity-75">UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-hover">
+                <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jannatul Islam</h5>
+                  <p class="card-text text-dark text-opacity-75">Motion Graphics Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-hover">
+                <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Imran Hossain</h5>
+                  <p class="card-text text-dark text-opacity-75">Graphics Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-hover">
+                <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nishi Akter</h5>
+                  <p class="card-text text-dark text-opacity-75">Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto w-75 text-center mt-5 mb-5 d-block d-md-none d-lg-block">
+              <button type="button" class="btn btn-info text-white fw-semibold"> View All</button>
+          </div>
+        </section>
+        <!-- Student Section ended  -->
+        <!-- Student Feedback Section Started  -->
+        <section class="mt-5 mb-5">
+          <div class="text-center">
+            <h1>Some Students Feedback</h1>
+            <p class="text-dark text-opacity-75">Follow your passion, be prepared to work hard and sacrifice, and, above all, don't let anyone limit your dreams.</p>
+          </div>
+          <div id="student-feedback" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-lg-2 g-3 px-4">
+                  <div class="col">
+                    <div class="card">
+                      <div class="d-flex justify-content-between p-3">
+                        <div>
+                          <img src="images/comma.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="text-dark text-opacity-75">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                        <div class="d-flex align-items-center">
+                          <div class="me-3">
+                            <img src="images/student/student-5.png" alt="">
+                          </div>
+                          <div>
+                            <h5 class="card-title">Ahnaf Tahmid</h5>
+                            <p class="card-text text-dark text-opacity-75">UI/UX Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <div class="d-flex justify-content-between p-3">
+                        <div>
+                          <img src="images/comma.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="text-dark text-opacity-75">I enjoyed the course and learned a lot from it. The content is well organized and focused on practical situations. I particularly enjoyed the bits of psychological research shared in the content.</p>
+                        <div class="d-flex align-items-center">
+                          <div class="me-3">
+                            <img src="images/student/student-6.png" alt="">
+                          </div>
+                          <div>
+                            <h5 class="card-title">Sumaiya Rima</h5>
+                            <p class="card-text text-dark text-opacity-75">Graphics Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-lg-2 g-3 px-4">
+                  <div class="col">
+                    <div class="card">
+                      <div class="d-flex justify-content-between p-3">
+                        <div>
+                          <img src="images/comma.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="text-dark text-opacity-75">I wished I could have completed this course before a feedback session with our team member, but anyway I have learned an important aspect of giving Feedback and the importance of feedback.</p>
+                        <div class="d-flex align-items-center">
+                          <div class="me-3">
+                            <img src="images/student/student-7.png" alt="">
+                          </div>
+                          <div>
+                            <h5 class="card-title">Awlad Hossain</h5>
+                            <p class="card-text text-dark text-opacity-75">UI/UX Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <div class="d-flex justify-content-between p-3">
+                        <div>
+                          <img src="images/comma.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="text-dark text-opacity-75">I learned a lot from this course. It gave the psychological background in addition to instructions in how to give feedback. Learning the Why made me understand the What so much better and fun.</p>
+                        <div class="d-flex align-items-center">
+                          <div class="me-3">
+                            <img src="images/student/student-8.png" alt="">
+                          </div>
+                          <div>
+                            <h5 class="card-title">Jannatul Islam</h5>
+                            <p class="card-text text-dark text-opacity-75">Motion Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <button class="carousel-control-prev bg-info feedback-prev-btn my-auto" type="button" data-bs-target="#student-feedback" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-info feedback-next-btn my-auto" type="button" data-bs-target="#student-feedback" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="mx-auto w-75 text-center mt-5 mb-5 d-block d-md-block d-lg-none">
+              <button type="button" class="btn btn-info text-white fw-semibold"> View All</button>
+          </div>
+        </section>
+        <!-- Student Feedback Section ended  -->
+        <!-- QnA Section Started  -->
+        <section class="mt-5 mb-5 px-1 px-md-5 mx-auto" id="qna">
+          <div class="text-center">
+            <h1>Frequently Asked Questions</h1>
+            <p class="text-dark opacity-75">HTMl, CSS & Frameworks might sound difficult. That's why this QnA will give some answers of some important questions of web development</p>
+          </div>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  What is the difference between Flexbox and Grid?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body text-dark opacity-75">
+                  <p>The CSS Grid has been designed to do many things that Flexbox couldn’t do and Flexbox is still one of the best tools for the developers to do stuffs that Grid cannot do. Well, Grid does not handle layout for the whole page; in fact, it handles the layout for a particular container, one container on the page, and the items that are directly related to that container. Flexbox is actually great when you want to line things up in one direction. This means the calculations happen one line at a time and the browser can only process things in one dimension at a time. Grid has the ability to line things up in two directions. Grid has the power to change the order of the layout without altering the markup. Grid has some powerful features which changed the way we create layouts for the web.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  What is the difference between Bootstrap and Tailwind?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body text-dark opacity-75">
+                  <p>A website that is created in the Bootstrap framework is very responsive and flawless. On the other hand, the Tailwind framework makes a more customizable website. Bootstrap has been around for a long time and has a large community of developers. On the other hand, Tailwind is not that old, and it is constantly growing its community. Most famous companies and applications like Spotify, Lyft, and Twitter use the Bootstrap framework. On the other hand, Bazzite, BlaBlaCar, and Examples are based on Tailwind. The programming language used to develop Bootstrap is Less, Sass, JavaScript, and HTML. On the other hand, Tailwind is written using PostCSS and CSS. Bootstrap is developed by Jacob Thornton and Mark Otto, and other developers. On the other hand, Tailwind was designed by Adam Wathan.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  What is CSS Box Model?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body text-dark opacity-75">
+                  <p>very element that can be displayed on a web page is comprised of one or more rectangular boxes. CSS box model typically describes how these rectangular boxes are laid out on a web page. These boxes can have different properties and can interact with each other in different ways, but every box has a content area and optional surrounding padding, border, and margin areas. The following diagram demonstrates how the width, height, padding, border, and margin CSS properties determines how much space an element can take on a web page.</p>
+                  <div class="text-center">
+                    <img class="img-fluid my-2" src="images/css-box-model.png" alt="">
+                  </div>
+                  <p>Padding is the transparent space between the element's content and its border (or edge of the box, if it has no border), whereas margin is the transparent space around the border. Also, if an element has the background color it will be visible through its padding area. The margin area is always remain transparent, it is not affected by the element's background color, however, it causes the background color of the parent element to be seen through it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                 What is an HTML Semantic Tag?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body text-dark opacity-75">
+                  <p>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience.</p>
+                  <ul>
+                    <li>Header: It defines a header for a web page.</li>
+                    <li>Nav: It defines a container for navigation links.</li>
+                    <li>Section: This defines a section in a web page.</li>
+                    <li>Article: This element contains the main part, containing information about the web page.</li>
+                    <li>Aside: The Aside content is often placed as a sidebar in a document.</li>
+                    <li>Footer: It defines a footer for a document or a section.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- QnA Section Ended  -->
+        <!-- Company Section Started  -->
+        <section class="mt-5 mb-5 d-none d-lg-block">
+          <h1 class="text-center">Trusted by over 800+ companies</h1>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <img src="images/company/company-1.png" alt="">
+            <img src="images/company/company-2.png" alt="">
+            <img src="images/company/company-3.png" alt="">
+            <img src="images/company/company-4.png" alt="">
+            <img src="images/company/company-5.png" alt="">
+            <img src="images/company/company-6.png" alt="">
+          </div>
+        </section>
+        <!-- Company Section Ended  -->
+      </section>  
+    </main>
+    <!-- Footer Started  -->
+    <footer class="mb-0 mt-5">
+      <section class="bg-dark bg-gradient">
+        <div class="text-white text-center py-5">
+          <h1><i class="fa-solid fa-graduation-cap"></i> Learn With Fun</h1>
+          <p>We have much to offer and you have more to learn</p>
+          <p><a href="" class="text-decoration-none text-white opacity-75">Privacy Policy </a> 
+          | <a href="" class="text-decoration-none text-white opacity-75"> Terms of use</a></p>
+          <small class="opacity-50">© 2022 Learn With Fun Inc. All rights reserved.</small>
+          <div class="fs-3">
+            <a href="https://www.facebook.com/programmingherowebcourse" target="_blank" class="text-decoration-none text-white opacity-50 mx-2" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/ProgrammingHero1" target="_blank" class="text-decoration-none text-white opacity-50 mx-2" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.youtube.com/c/ProgrammingHero" target="_blank" class="text-decoration-none text-white opacity-50 mx-2" rel="noopener noreferrer">
+            <i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/programminghero?lang=en" target="_blank" class="text-decoration-none text-white opacity-50 mx-2" rel="noopener noreferrer">
+            <i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+      </section>
+    </footer>
+    <!-- Footer Ended  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
